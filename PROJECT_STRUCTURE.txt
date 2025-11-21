@@ -1,0 +1,44 @@
+.gitignore
+package-lock.json
+node_modules
+dist/
+build/
+.parcel-cache/
+assets/design
+
+
+IP Address Tracker/
+├─ .gitignore
+├─ README.md
+├─ index.html
+├─ package.json
+├─ .parcel-cache/
+│  ├─ (parcel cache files ...)
+│  ├─ data.mdb
+│  ├─ lock.mdb
+│  └─ snapshot-*.txt
+├─ assets/
+│  ├─ design/
+│  └─ images/
+├─ src/
+│  ├─ index.js
+│  ├─ style.scss
+│  ├─ CSS/
+│  │  ├─ style.css
+│  │  └─ style.min.css
+│  ├─ dom/
+│  │  ├─ domElements.js
+│  │  ├─ domEvents.js
+│  │  └─ index.js
+│  ├─ handlers/
+│  │  ├─ errorHandler.js
+│  │  ├─ getGeoAndShowInfo.js
+│  │  ├─ index.js
+│  │  ├─ localStorage.js
+│  │  ├─ mediaHandler.js
+│  │  ├─ submitIp.js
+│  │  └─ validateIp.js
+│  └─ utils/
+│     ├─ defaultIp.js
+│     ├─ getUserIp.js
+│     └─ index.js

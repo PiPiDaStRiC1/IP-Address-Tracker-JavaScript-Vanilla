@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/CSS/style.min.css">
+    <script type="module" defer src="./src/index.js"></script>
+    <title>IP Address Tracker</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">IP Address Tracker</h1>
+        <div class="header__search">
+            <input autocomplete="off" name="input" type="text" placeholder="Search for any IP address" class="header__input"/>
+            <button class="header__button">
+                <img src="./assets/images/icon-arrow.svg" alt="arrow icon"/>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <ul class="main__info">
+            <li class="main__info_element">
+                <h2 class="info_element_title">IP ADDRESS</h2>
+                <p id="ip" class="info_element_value">-</p>
+            </li>
+            <li class="main__info_element">
+                <h2 class="info_element_title">LOCATION</h2>
+                <p id="location" class="info_element_value">-</p>
+            </li>
+            <li class="main__info_element">
+                <h2 class="info_element_title">TIMEZONE</h2>
+                <p id="timezone" class="info_element_value">-</p>
+            </li>
+            <li class="main__info_element">
+                <h2 class="info_element_title">ISP</h2>
+                <p id="isp" class="info_element_value">-</p>
+            </li>
+        </ul>
+    </main>
+    <div id="map"></div>
+</body>
+</html>

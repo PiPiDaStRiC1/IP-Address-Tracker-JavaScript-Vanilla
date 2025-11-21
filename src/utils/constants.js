@@ -1,0 +1,1 @@
+export const TEMPLATE = '255.255.255.255';
